@@ -1,0 +1,106 @@
+import React, { useState } from "react";
+
+export default function NavBar() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <nav className="bg-white p-4  lg:max-w-7xl mx-auto">
+      <div className="max-w-8xl mx-auto flex justify-between items-center">
+        <div className="flex items-center mx-12">
+          <a href="/" className="text-[#181847] text-xl font-bold">
+            <span className="text-[#ECC50D]">Zettain</span>ment
+          </a>
+        </div>
+        <div className="md:hidden">
+          <button
+            className="text-[#181847] hover:text-[#ECC50D] focus:outline-none"
+            onClick={toggleSidebar}
+          >
+            <svg
+              className="h-6 w-6 fill-current"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              {isOpen ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-x"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M18 6l-12 12" />
+                  <path d="M6 6l12 12" />
+                </svg>
+              ) : (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon icon-tabler icon-tabler-menu-2"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M4 6l16 0" />
+                  <path d="M4 12l16 0" />
+                  <path d="M4 18l16 0" />
+                </svg>
+              )}
+            </svg>
+          </button>
+        </div>
+        <div className="mx-12 md:flex items-center hidden text-md font-bold text-[#181847]">
+          <a href="/" className=" hover:text-[#ECC50D] px-3 py-2">
+            Home
+          </a>
+          <a href="/" className="hover:text-[#ECC50D] px-3 py-2">
+            About
+          </a>
+          <a href="/" className="hover:text-[#ECC50D] px-3 py-2">
+            Services
+          </a>
+          <a href="/" className="hover:text-[#ECC50D] px-3 py-2">
+            Contact
+          </a>
+        </div>
+      </div>
+      {/* Sidebar */}
+      <div
+        className={`md:hidden fixed top-0 left-0 h-full w-64 bg-gray-800 transition transform ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
+      >
+        <div className="mx-24  py-16">
+          <a href="/" className="block no-underline  text-gray-300 hover:text-white py-5">
+            Home
+          </a>
+          <a href="/" className="block text-gray-300 hover:text-white py-5">
+            About
+          </a>
+          <a href="/" className="block text-gray-300 hover:text-white py-5">
+            Services
+          </a>
+          <a href="/" className="block text-gray-300 hover:text-white py-5">
+            Contact
+          </a>
+        </div>
+      </div>
+    </nav>
+  );
+}
