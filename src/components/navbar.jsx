@@ -10,7 +10,7 @@ export default function NavBar() {
 
   return (
     <nav className="bg-white p-4  lg:max-w-7xl mx-auto">
-      <div className="max-w-8xl mx-auto flex justify-between items-center">
+      <div className={"max-w-8xl mx-auto flex justify-between items-center"}>
         <div className="flex items-center mx-12">
           <a href="/" className="text-[#181847] text-xl font-bold">
             <span className="text-[#ECC50D]">Zettain</span>ment
