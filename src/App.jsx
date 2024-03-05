@@ -7,6 +7,7 @@ import HeroSection from "./components/hero-section";
 import Card from "./components/card";
 import AboutUs from "./components/about-us";
 import about from "./assets/img/about.svg";
+import Content from "./components/content";
 const App = () => {
   return (
     <>
@@ -39,6 +40,7 @@ const App = () => {
         />
       </div>
       <AboutUs img={about} />
+      <Content/>
     </>
   );
 };
