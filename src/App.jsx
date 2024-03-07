@@ -9,6 +9,8 @@ import AboutUs from "./components/about-us";
 import about from "./assets/img/about.svg";
 import Content from "./components/content";
 const App = () => {
+  ;
+
   return (
     <>
       <div className="flex justify-center">
@@ -40,7 +42,7 @@ const App = () => {
         />
       </div>
       <AboutUs img={about} />
-      <Content/>
+      <Content />
     </>
   );
 };
