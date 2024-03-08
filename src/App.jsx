@@ -8,6 +8,7 @@ import Card from "./components/card";
 import AboutUs from "./components/about-us";
 import about from "./assets/img/about.svg";
 import Content from "./components/content";
+import ContactForm from "./components/contact";
 const App = () => {
   ;
 
@@ -42,7 +43,12 @@ const App = () => {
         />
       </div>
       <AboutUs img={about} />
+      <div className="bg-white mx-auto text-center mt-9 max-w-7xl">
+        <h1 className="font-bold text-4xl pt-16">Our Social Media Content</h1>
+        <p className="w-1/2 text-center mx-auto mt-5 text-lg">lorem ipsum dolor sit amet uwu hahahah a haha  if u have  lorem ipsum lh a haha  if u have  lorem ipsum lorem ipsum dolor sit amet uwu hahahah a haha  if u have  lorem ipsum lh a haha  if u have  lorem ipsum</p>
       <Content />
+      </div>
+      <ContactForm/>
     </>
   );
 };
