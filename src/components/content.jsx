@@ -3,8 +3,7 @@ import img1 from "../assets/img/img1.jpg";
 import img2 from "../assets/img/img2.jpg";
 import img3 from "../assets/img/img3.jpg";
 import img4 from "../assets/img/img4.jpg";
-import img5 from "../assets/img/img7.jpg";
-import img6 from "../assets/img/img6.jpg";
+import img5 from "../assets/img/img5.jpg";
 
 const Content = () => {
   return (
@@ -21,7 +20,7 @@ const Content = () => {
           </div>
           <div className="bg-green-200 col-span-1 row-span-2 rounded-lg">
             <img
-              src={img5}
+              src={img2}
               className="lg:h-[28.5rem] h-[15.2rem] rounded-lg"
               alt=""
               loading="lazy"
@@ -29,7 +28,7 @@ const Content = () => {
           </div>
           <div className="rounded-lg bg-yellow-200 col-span-1">
             <img
-              src={img2}
+              src={img3}
               className="lg:h-72 h-40 w-96 rounded-lg"
               alt=""
               loading="lazy"
@@ -38,7 +37,7 @@ const Content = () => {
           <div className="bg-red-200 col-span-1 rounded-lg">
             <img
               className="rounded-lg"
-              src={img3}
+              src={img4}
               alt=""
               loading="lazy"
             />
@@ -46,7 +45,7 @@ const Content = () => {
           <div className="bg-red-200 col-span-1 rounded-lg">
             <img
               className="rounded-lg"
-              src={img3}
+              src={img4}
               alt=""
               loading="lazy"
             />
@@ -54,7 +53,7 @@ const Content = () => {
           <div className="bg-red-200 col-span-1 rounded-lg">
             <img
               className="rounded-lg"
-              src={img6}
+              src={img5}
               alt=""
               loading="lazy"
             />
