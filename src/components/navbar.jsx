@@ -11,7 +11,7 @@ export default function NavBar() {
   return (
     <nav className="bg-white mx-auto p-4 border-b border-slate-200 shadow  fixed z-10 w-full lg:max-w-7xl">
       <div className={"max-w-8xl flex justify-between items-center"}>
-        <div className="flex items-center mx-12">
+        <div className="flex items-center mx-2 lg:mx-12">
           <a href="/" className="text-[#181847] text-xl font-bold">
             <span className="text-[#ECC50D]">Zettain</span>ment
           </a>
@@ -82,21 +82,21 @@ export default function NavBar() {
       </div>
       {/* Sidebar */}
       <div
-        className={`md:hidden fixed top-0 left-0 h-full w-64 bg-gray-800 transition transform ${
+        className={`md:hidden fixed top-0 left-0 h-full w-64 bg-white transition transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="mx-24  py-16">
-          <a href="/" className="block no-underline  text-gray-300 hover:text-white py-5">
+        <div className="mx-24 font-bold text-[#181847]  py-16">
+          <a href="/" className="block no-underline  hover:text-gray-500 py-5">
             Home
           </a>
-          <a href="/" className="block text-gray-300 hover:text-white py-5">
+          <a href="/" className="block hover:text-gray-500 py-5">
             About
           </a>
-          <a href="/" className="block text-gray-300 hover:text-white py-5">
+          <a href="/" className="block hover:text-gray-500 py-5">
             Services
           </a>
-          <a href="/" className="block text-gray-300 hover:text-white py-5">
+          <a href="/" className="block hover:text-gray-500 py-5">
             Contact
           </a>
         </div>

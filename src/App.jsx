@@ -19,7 +19,7 @@ const App = () => {
       </div>
 
       <HeroSection />
-      <div className="max-w-7xl flex w-1/1 mx-auto  mt-9 justify-center items-center  bg-[#EFEFEF]">
+      <div className="max-w-7xl flex flex-col md:flex-row w-1/1 mx-auto px-5 lg:px-0 mt-9 justify-center items-center  bg-[#EFEFEF]">
         <Card
           img={vision}
           title="Our Vision"

@@ -1,6 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+
 const ContactForm = () => {
   return (
     <div className="flex justify-center  max-w-7xl  mx-auto">
@@ -36,10 +38,9 @@ const ContactForm = () => {
             <a href="#" className="text-gray-700 mt-5 hover:text-blue-500 flex ">  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6  " viewBox="0 0 20 20" fill="currentColor">
                   <path d="M10 2a5 5 0 0 1 5 5c0 3.93-5 12-5 12S5 10.93 5 7a5 5 0 0 1 5-5zm0 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
                 </svg><span className="ml-2 ">Serang, Banten</span></a>
-              <a href="#" className="text-gray-700 mt-5 hover:text-blue-500"><FontAwesomeIcon icon={fab.faFacebook} className="ml-2" /><span className="ml-2  ">Facebook</span></a>
-              <a href="#" className="text-gray-700 mt-5 hover:text-blue-500"><FontAwesomeIcon icon={fab.faInstagram} className="ml-2" /><span className="ml-2 ">Instagram</span></a>
-              <a href="#" className="text-gray-700 mt-5 hover:text-blue-500"><FontAwesomeIcon icon={fab.faTiktok} className="ml-2" /><span className="ml-2 ">Tiktok</span></a> 
-              <a href="#" className="text-gray-700 mt-5 hover:text-blue-500"><span className="ml-2 ">Facebook</span></a>
+              <a href="#" className="text-gray-700 mt-5 hover:text-blue-500"><FontAwesomeIcon icon={faEnvelope} className="ml-2" /><span className="ml-2  ">zettainment@gmail.com</span></a>
+              <a href="#" className="text-gray-700 mt-5 hover:text-blue-500"><FontAwesomeIcon icon={fab.faInstagram} className="ml-2" /><span className="ml-2 ">zettainment_</span></a>
+              <a href="#" className="text-gray-700 mt-5 hover:text-blue-500"><FontAwesomeIcon icon={fab.faTiktok} className="ml-2" /><span className="ml-2 ">zettainment_</span></a> 
             </div>
           </div>
         </div>
