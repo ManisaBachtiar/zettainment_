@@ -9,7 +9,7 @@ const ContactForm = () => {
       <div className="max-w-6xl px-6 py-12">
         <div className="flex flex-col md:flex-row items-center">
           {/* Bagian kiri dengan form */}
-          <div className="md:w-1/2 px-16   mb-7 md:mb-0 bg-white rounded-lg">
+          <div className="md:w-1/2 w-5/6 sm:px-16 px-9   mb-7 md:mb-0 bg-white rounded-lg">
             <form className="space-y-4   py-9">
               <div className=''>
                 <label htmlFor="name" className="block text-gray-700">Name</label>
@@ -29,7 +29,7 @@ const ContactForm = () => {
           
 
           {/* Bagian kanan dengan informasi dan sosial media */}
-          <div className="md:w-1/2 md:pl-12 ">
+          <div className="md:w-1/2 md:pl-12 px-12  mt-9 md:mt-0">
             <div className="mb-3">
               <h1 className="text-3xl font-bold mb-4">Contact Us for Further Inquiries</h1>
               <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

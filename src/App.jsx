@@ -19,7 +19,7 @@ const App = () => {
       </div>
 
       <HeroSection />
-      <div className="max-w-7xl flex flex-col md:flex-row w-1/1 mx-auto px-5 lg:px-0 mt-9 justify-center items-center  bg-[#EFEFEF]">
+      <div className="max-w-7xl flex flex-col sm:flex-row w-1/1 mx-auto px-5 lg:px-0 mt-9 justify-center items-center  bg-[#EFEFEF]">
         <Card
           img={vision}
           title="Our Vision"
@@ -44,8 +44,8 @@ const App = () => {
       </div>
       <AboutUs img={about} />
       <div className="bg-white mx-auto text-center mt-9 max-w-7xl">
-        <h1 className="font-bold text-4xl pt-16">Our Social Media Content</h1>
-        <p className="w-1/2 text-center mx-auto mt-5 text-lg">lorem ipsum dolor sit amet uwu hahahah a haha  if u have  lorem ipsum lh a haha  if u have  lorem ipsum lorem ipsum dolor sit amet uwu hahahah a haha  if u have  lorem ipsum lh a haha  if u have  lorem ipsum</p>
+        <h1 className="font-bold text-4xl pt-16 ">Our Social Media Content</h1>
+        <p className="lg:w-1/2 text-center w-[85%] mx-auto mt-5 text-lg">lorem ipsum dolor sit amet uwu hahahah a haha  if u have  lorem ipsum lh a haha  if u have  lorem ipsum lorem ipsum dolor sit amet uwu hahahah a haha  if u haveum</p>
       <Content />
       </div>
       <ContactForm/>

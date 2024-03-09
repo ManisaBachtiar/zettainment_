@@ -10,10 +10,10 @@ const Content = () => {
   return (
     <>
       <div className="mx-auto max-w-7xl bg-white pb-16">
-        <div className="w-3/4 py-9 grid grid-cols-4 gap-4 max-w-7xl mx-auto">
+        <div className="lg:w-3/4 py-9 px-9 lg:px-0 grid grid-cols-4 gap-4 max-w-7xl mx-auto">
           <div className="rounded-lg bg-blue-200 col-span-2">
             <img
-              className="h-72 w-[30rem] rounded-lg"
+              className="lg:h-72 h-40 w-[30rem] rounded-lg"
               src={img1}
               alt=""
               loading="lazy"
@@ -22,7 +22,7 @@ const Content = () => {
           <div className="bg-green-200 col-span-1 row-span-2 rounded-lg">
             <img
               src={img5}
-              className="h-[28.5rem] rounded-lg"
+              className="lg:h-[28.5rem] h-[15.2rem] rounded-lg"
               alt=""
               loading="lazy"
             />
@@ -30,7 +30,7 @@ const Content = () => {
           <div className="rounded-lg bg-yellow-200 col-span-1">
             <img
               src={img2}
-              className="h-72 w-96 rounded-lg"
+              className="lg:h-72 h-40 w-96 rounded-lg"
               alt=""
               loading="lazy"
             />

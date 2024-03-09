@@ -1,13 +1,13 @@
 import React from "react";
 const AboutUs = ({img}) => {
   return (
-    <div className="flex justify-between max-w-7xl px-16 mx-auto mt-9 bg-white py-11">
-      <div className="w-1/2 mt-9 px-5">
+    <div className="flex justify-between max-w-7xl flex-col lg:flex-row  lg:px-16 px-9 mx-auto mt-9 bg-white py-11">
+      <div className="lg:w-1/2 w-2/3 mx-auto lg:mx-0 lg:mt-9 lg:pb-0 pb-12 lg:px-5">
         <img src={img}  alt="" className="w-full animate-fly" />
       </div>
-      <div className="w-1/2 px-4">
+      <div className="lg:w-1/2  lg:px-4">
         <h3 className="text-2xl mb-2 text-[#ECC50D] font-bold">About Us</h3>
-        <h1 className="text-[2.8rem] leading-tight font-bold mb-4">
+        <h1 className="sm:text-[2.8rem] text-[2.3rem] leading-tight font-bold mb-4">
           We Provide Real News for You
         </h1>
         <p className="mb-4 text-lg">

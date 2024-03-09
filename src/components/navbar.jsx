@@ -65,7 +65,7 @@ export default function NavBar() {
             </svg>
           </button>
         </div>
-        <div className="mx-12 md:flex items-center hidden text-md font-bold text-[#181847]">
+        <div className="lg:mx-12 md:flex items-center hidden text-md font-bold text-[#181847]">
           <a href="/" className=" hover:text-[#ECC50D] px-3 py-2">
             Home
           </a>
