@@ -21,7 +21,7 @@ const Content = () => {
           <div className="bg-green-200 col-span-1 row-span-2 rounded-lg">
             <img
               src={img2}
-              className="lg:h-[28.5rem] h-[15.2rem] rounded-lg"
+              className="lg:h-[28.5rem] sm:h-[15.2rem] h-[14rem] rounded-lg"
               alt=""
               loading="lazy"
             />

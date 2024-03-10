@@ -1,4 +1,5 @@
-import "./App.css";
+import React, { useRef } from "react";
+
 import vision from "./assets/img/vision.svg";
 import mission from "./assets/img/mission.svg";
 import motto from "./assets/img/motto.svg";
@@ -9,8 +10,14 @@ import AboutUs from "./components/about-us";
 import about from "./assets/img/about.svg";
 import Content from "./components/content";
 import ContactForm from "./components/contact";
+
+import useIsVisible from "./lib/utils";
+
+import "./App.css";
+
 const App = () => {
-  ;
+  const ref1 = useRef();
+  const isVisible1 = useIsVisible(ref1);
 
   return (
     <>
@@ -19,7 +26,7 @@ const App = () => {
       </div>
 
       <HeroSection />
-      <div className="max-w-7xl flex flex-col sm:flex-row w-1/1 mx-auto px-5 lg:px-0 mt-9 justify-center items-center  bg-[#EFEFEF]">
+      <div ref={ref1} className={`transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"} max-w-7xl flex flex-col sm:flex-row w-1/1 mx-auto px-5 lg:px-0 mt-9 justify-center items-center  bg-[#EFEFEF]`}>
         <Card
           img={vision}
           title="Our Vision"

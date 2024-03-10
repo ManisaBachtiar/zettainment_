@@ -1,7 +1,7 @@
 import img1 from "../assets/img/vektor3.png";
 export default function HeroSection() {
   return (
-    <div className="bg-white text-[#1D1B4F] px-12 lg:px-12 lg:max-w-7xl mx-auto py-24  lg:py-24 xl:pt-32 justify-center flex ">
+    <div className="bg-white text-[#1D1B4F] px-12 lg:px-12 lg:max-w-7xl mx-auto py-44  lg:py-24 xl:pt-32 justify-center flex ">
       <div className="container  flex flex-col sm:flex-row items-center justify-center ">
         <div className="xl:w-1/2 lg:w-2/3">
           <h1 className="text-[2.9rem] lg:text-[5rem]  font-bold mb-4 leading-tight">
