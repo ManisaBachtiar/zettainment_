@@ -50,7 +50,7 @@ const HeroSection: React.FC = () => {
               <p className="text-lg mb-6 mt-3 pr-3 lg:pr-12">
                 Zettainment is a platform where you can discover the latest news for your feed, featuring trending and significant updates.
               </p>
-              <Button onClick={() => { setIsDialogOpen(true); }} variant="outline" className="bg-another text-primary-foreground font-xl border-2 border-[#ECC50D] font-bold py-2 px-4 rounded-md">
+              <Button onClick={() => { setIsDialogOpen(true); }} variant="outline" className="bg-another hover:bg-[#ECC50D] text-primary-foreground font-xl border-2 border-[#ECC50D] font-bold py-2 px-4 rounded-md">
                 About
               </Button>
             </div>

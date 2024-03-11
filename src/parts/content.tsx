@@ -6,7 +6,7 @@ import img5 from "../assets/img/img5.jpg";
 
 const Content: React.FC = () => {
     return (
-        <div className="mx-auto max-w-7xl bg-another pb-16">
+        <div id="Content" className=" scroll-mt-96 md:scroll-mt-72 mx-auto max-w-7xl bg-another pb-16">
         <div className="lg:w-3/4 py-9 px-9 lg:px-0 grid grid-cols-4 gap-4 max-w-7xl mx-auto">
           <div className="rounded-lg bg-blue-200 col-span-2">
             <img

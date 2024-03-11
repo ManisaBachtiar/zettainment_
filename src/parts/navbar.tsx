@@ -69,16 +69,16 @@ const NavBar: React.FC = () => {
                     </button>
                 </div>
                 <div className="lg:mx-12 md:flex items-center hidden text-md font-bold text-primary-foreground">
-                    <a href="/" className=" hover:text-[#ECC50D] px-3 py-2">
+                    <a href="#" className=" hover:text-[#ECC50D] px-3 py-2">
                         Home
                     </a>
-                    <a href="/" className="hover:text-[#ECC50D] px-3 py-2">
+                    <a href="#About" className="hover:text-[#ECC50D] px-3 py-2">
                         About
                     </a>
-                    <a href="/" className="hover:text-[#ECC50D] px-3 py-2">
-                        Services
+                    <a href="#Content" className="hover:text-[#ECC50D] px-3 py-2">
+                        Content
                     </a>
-                    <a href="/" className="hover:text-[#ECC50D] px-3 py-2">
+                    <a href="#Contact" className="hover:text-[#ECC50D] px-3 py-2">
                         Contact
                     </a>
 
@@ -93,16 +93,16 @@ const NavBar: React.FC = () => {
                 }`}
             >
                 <div className="mx-24 font-bold text-foreground py-16">
-                    <a href="/" className="block no-underline hover:text-gray-500 py-5">
+                    <a href="#" className="block no-underline hover:text-gray-500 py-5">
                         Home
                     </a>
-                    <a href="/" className="block hover:text-gray-500 py-5">
+                    <a href="#About" className="block hover:text-gray-500 py-5">
                         About
                     </a>
-                    <a href="/" className="block hover:text-gray-500 py-5">
-                        Services
+                    <a href="#Content" className="block hover:text-gray-500 py-5">
+                        Content
                     </a>
-                    <a href="/" className="block hover:text-gray-500 py-5">
+                    <a href="#Contact" className="block hover:text-gray-500 py-5">
                         Contact
                     </a>
                 </div>
