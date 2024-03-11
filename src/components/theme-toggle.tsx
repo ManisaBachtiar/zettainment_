@@ -1,3 +1,5 @@
+import React from "react"
+
 import { Moon, Sun } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -9,7 +11,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { useTheme } from "@/components/theme-provider"
 
-const ThemeToggle = () => {
+const ThemeToggle: React.FC = () => {
   const { setTheme } = useTheme()
 
   return (
@@ -21,7 +23,7 @@ const ThemeToggle = () => {
           <span className="sr-only">Toggle theme</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
+      <DropdownMenuContent className="bg-another" align="end">
         <DropdownMenuItem className="cursor-auto hover:cursor-pointer" onClick={() => setTheme("light")}>
           Light
         </DropdownMenuItem>

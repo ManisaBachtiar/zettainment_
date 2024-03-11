@@ -52,15 +52,15 @@ const ContactForm: React.FC = () => {
             <div className="md:w-1/2 w-5/6 sm:px-16 px-9 mb-7 md:mb-0 bg-another rounded-lg">
                 <form className="space-y-4 py-9">
                     <div className=''>
-                        <label htmlFor="name" className="block text-foreground">Name</label>
+                        <label htmlFor="name" className=" pb-2 mt-5 block text-foreground">Name</label>
                         <input type="text" id="name" name="name" className="w-full border bg-background border-gray-300 rounded-md px-4 py-2" />
                     </div>
                     <div>
-                        <label htmlFor="email" className="block text-foreground">Email</label>
+                        <label htmlFor="email" className=" pb-2 mt-5 block text-foreground">Email</label>
                         <input type="email" id="email" name="email" className="w-full border bg-background border-gray-300 rounded-md px-4 py-2" />
                     </div>
                     <div>
-                        <label htmlFor="message" className="block text-foreground">Message</label>
+                        <label htmlFor="message" className=" pb-2 mt-5 block text-foreground">Message</label>
                         <textarea id="message" name="message" rows={4} className="w-full border bg-background border-gray-300 rounded-md px-4 py-2"></textarea>
                     </div>
                     <button type="submit" className="mx-auto flex items-center text-center bg-[#ECC50D] text-black hover:text-white rounded-md px-4 py-2 hover:bg-blue-600 transition duration-300">Submit</button>
