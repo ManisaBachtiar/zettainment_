@@ -19,8 +19,13 @@ const AboutUs: React.FC = () => {
             minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat. We are dedicated to bringing you the latest, most reliable news from around the globe. Our team of experienced journalists works tirelessly to provide you with real-time updates on everything that matters to you. From breaking news to in-depth analysis, we are your trusted source for staying informed.
             </p>
-            <Button variant="outline" className="bg-another border-2 hover:bg-[#ECC50D] border-[#ECC50D] text-foreground font-bold py-2 px-4 rounded">
-            Our Content
+            <Button 
+                variant="outline" 
+                className="bg-another border-2 hover:bg-[#ECC50D] border-[#ECC50D] text-foreground font-bold py-2 px-4 rounded"
+                onClick={() => {
+                    window.open('https://www.instagram.com/zettainment_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==');
+                }}>
+                    Our Content
             </Button>
         </div>
         </div>

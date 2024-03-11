@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from "react";
 
 /*
- *  a function which will literallt return a canvas
+ *  !!-- DEPRECATED FUNCTION!
+ *  a function which will literally return a canvas
  *  that's renders a "i love you" heart animation
  *  powered with some autistic math algorithm 
  *  cc: @SFINXV
