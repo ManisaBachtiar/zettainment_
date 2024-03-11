@@ -18,7 +18,10 @@ const App = () => {
     <ThemeProvider defaultTheme="system" storageKey="theme">
 
       <NavBar />
-      <HeroSection />
+
+      <FadeInScroll>
+        <HeroSection />
+      </FadeInScroll>
 
       <div className={`max-w-7xl flex flex-col sm:flex-row w-1/1 mx-auto px-5 lg:px-0 mt-9 justify-center items-center bg-background`}>
         
