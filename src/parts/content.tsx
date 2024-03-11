@@ -1,14 +1,12 @@
-import React from "react";
 import img1 from "../assets/img/img1.jpg";
 import img2 from "../assets/img/img2.jpg";
 import img3 from "../assets/img/img3.jpg";
 import img4 from "../assets/img/img4.jpg";
 import img5 from "../assets/img/img5.jpg";
 
-const Content = () => {
-  return (
-    <>
-      <div className="mx-auto max-w-7xl bg-white pb-16">
+const Content: React.FC = () => {
+    return (
+        <div className="mx-auto max-w-7xl bg-another pb-16">
         <div className="lg:w-3/4 py-9 px-9 lg:px-0 grid grid-cols-4 gap-4 max-w-7xl mx-auto">
           <div className="rounded-lg bg-blue-200 col-span-2">
             <img
@@ -60,8 +58,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-    </>
-  );
-};
+    );
+}
 
 export default Content;
