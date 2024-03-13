@@ -3,7 +3,7 @@ import img2 from "../assets/img/img2.jpg";
 import img3 from "../assets/img/img3.jpg";
 import img4 from "../assets/img/img4.jpg";
 import img5 from "../assets/img/img5.jpg";
-
+import img7 from "../assets/img/img7.jpg";
 const Content: React.FC = () => {
     return (
         <div id="Content" className=" scroll-mt-96 md:scroll-mt-72 mx-auto max-w-7xl bg-another pb-16">
@@ -43,7 +43,7 @@ const Content: React.FC = () => {
           <div className="bg-red-200 col-span-1 rounded-lg">
             <img
               className="rounded-lg"
-              src={img4}
+              src={img7}
               alt=""
               loading="lazy"
             />
