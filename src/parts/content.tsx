@@ -2,8 +2,11 @@ import img1 from "../assets/img/img1.jpg";
 import img2 from "../assets/img/img2.jpg";
 import img3 from "../assets/img/img3.jpg";
 import img4 from "../assets/img/img4.jpg";
-import img5 from "../assets/img/img5.jpg";
+import img5 from "../assets/img/tiktok.jpg";
 import img7 from "../assets/img/img7.jpg";
+
+import img9 from "../assets/img/img9.jpg";
+import img8 from "../assets/img/img8.jpg";
 const Content: React.FC = () => {
     return (
         <div id="Content" className=" scroll-mt-96 md:scroll-mt-72 mx-auto max-w-7xl bg-another pb-16">
@@ -11,7 +14,7 @@ const Content: React.FC = () => {
           <div className="rounded-lg bg-blue-200 col-span-2">
             <img
               className="lg:h-72 h-40 w-[30rem] rounded-lg"
-              src={img1}
+              src={img8}
               alt=""
               loading="lazy"
             />
@@ -26,7 +29,7 @@ const Content: React.FC = () => {
           </div>
           <div className="rounded-lg bg-yellow-200 col-span-1">
             <img
-              src={img3}
+              src={img5}
               className="lg:h-72 h-40 w-96 rounded-lg"
               alt=""
               loading="lazy"
@@ -35,7 +38,7 @@ const Content: React.FC = () => {
           <div className="bg-red-200 col-span-1 rounded-lg">
             <img
               className="rounded-lg"
-              src={img4}
+              src={img1}
               alt=""
               loading="lazy"
             />
@@ -51,7 +54,7 @@ const Content: React.FC = () => {
           <div className="bg-red-200 col-span-1 rounded-lg">
             <img
               className="rounded-lg"
-              src={img5}
+              src={img9}
               alt=""
               loading="lazy"
             />
